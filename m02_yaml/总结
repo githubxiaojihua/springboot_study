@@ -1,0 +1,5 @@
+yml语法
+以及配置文件属性注入
+
+使用springboot自带的单元测试进行测试，具体看M02YamlApplicationTests
+基本上与在原生spring中使用junit类似
