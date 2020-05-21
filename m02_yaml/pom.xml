@@ -35,6 +35,12 @@
                 </exclusion>
             </exclusions>
         </dependency>
+        <!-- 引入校验框架，内部使用hibernate validator实现-->
+        <dependency>
+            <groupId>org.springframework.boot</groupId>
+            <artifactId>spring-boot-starter-validation</artifactId>
+        </dependency>
+
 
         <!--导入配置文件处理器，配置文件进行绑定就会有提示-->
         <dependency>

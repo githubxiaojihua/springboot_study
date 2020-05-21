@@ -2,18 +2,24 @@ package com.xiaojihua.m02.pojo;
 
 import org.springframework.boot.context.properties.ConfigurationProperties;
 import org.springframework.stereotype.Component;
+import org.springframework.validation.annotation.Validated;
 
+import javax.validation.constraints.Email;
 import java.util.Date;
 import java.util.List;
 import java.util.Map;
 
 @Component
 @ConfigurationProperties(prefix = "person")
+@Validated
 public class Person {
     private String lastName;
     private Integer age;
     private Boolean boos;
     private Date birth;
+
+    @Email
+    private String email;
 
     private Map<String,Object> maps;
     private List<Object> lists;
@@ -75,6 +81,14 @@ public class Person {
         this.dog = dog;
     }
 
+    public String getEmail() {
+        return email;
+    }
+
+    public void setEmail(String email) {
+        this.email = email;
+    }
+
     @Override
     public String toString() {
         return "Person{" +
@@ -82,6 +96,7 @@ public class Person {
                 ", age=" + age +
                 ", boos=" + boos +
                 ", birth=" + birth +
+                ", email='" + email + '\'' +
                 ", maps=" + maps +
                 ", lists=" + lists +
                 ", dog=" + dog +

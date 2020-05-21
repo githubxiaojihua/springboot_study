@@ -1,14 +1,14 @@
 server:
   port: 8090
-person:
-  age: 18
-  last-name: zhagnsan
-  birth: 1987/12/12
-  boos: false
-  dog:
-    name: 小狗
-    age: 2
-  lists:
-    - lisi
-    - wangwu
-  maps: {k1: v1,k2: v2}
+#person:
+#  age: 18
+#  last-name: zhagnsan
+#  birth: 1987/12/12
+#  boos: false
+#  dog:
+#    name: 小狗
+#    age: 2
+#  lists:
+#    - lisi
+#    - wangwu
+#  maps: {k1: v1,k2: v2}
