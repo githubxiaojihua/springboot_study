@@ -9,6 +9,7 @@
         <outputRelativeToContentRoot value="true" />
         <module name="m01_helloworld" />
         <module name="m02_yaml" />
+        <module name="m03_logging" />
       </profile>
     </annotationProcessing>
   </component>

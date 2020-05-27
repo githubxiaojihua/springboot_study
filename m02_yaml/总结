@@ -1,15 +1,14 @@
 一、yml语法
-以及配置文件属性注入
+    以及配置文件属性注入
 二、单元测试
-使用springboot自带的单元测试进行测试，具体看M02YamlApplicationTests
-基本上与在原生spring中使用junit类似
+    使用springboot自带的单元测试进行测试，具体看M02YamlApplicationTests
+    基本上与在原生spring中使用junit类似
 三、校验框架
-Person使用了@Validated以及@Email校验。
-需要引入
-<!-- 引入校验框架，内部使用hibernate validator实现-->
-<dependency>
-    <groupId>org.springframework.boot</groupId>
-    <artifactId>spring-boot-starter-validation</artifactId>
-</dependency>
-
-java提供了validate的相关api，hibernate validator提供了实现
+    Person使用了@Validated以及@Email校验。
+    需要引入
+    <!-- 引入校验框架，内部使用hibernate validator实现-->
+    <dependency>
+        <groupId>org.springframework.boot</groupId>
+        <artifactId>spring-boot-starter-validation</artifactId>
+    </dependency>
+    java提供了validate的相关api，hibernate validator提供了实现
