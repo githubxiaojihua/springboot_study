@@ -10,6 +10,7 @@
         <module name="m01_helloworld" />
         <module name="m02_yaml" />
         <module name="m03_logging" />
+        <module name="m03_web_restful_crud" />
       </profile>
     </annotationProcessing>
   </component>

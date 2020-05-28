@@ -7,7 +7,8 @@
         <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$PROJECT_DIR$/m01_helloworld/pom.xml" />
         <option value="$PROJECT_DIR$/m02_yaml/pom.xml" />
-        <option value="$PROJECT_DIR$/../springboot_study/m03_logging/pom.xml" />
+        <option value="$PROJECT_DIR$/m03_logging/pom.xml" />
+        <option value="$PROJECT_DIR$/../springboot_study/m03_web_restful_crud/pom.xml" />
       </list>
     </option>
   </component>
