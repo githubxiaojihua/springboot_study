@@ -1,6 +1,12 @@
 package com.xiaojihua.m03.config;
 
+import com.xiaojihua.m03.compnent.LoginHandlerIntercepter;
+import com.xiaojihua.m03.compnent.MyLocalResolver;
+import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
+import org.springframework.web.servlet.LocaleResolver;
+import org.springframework.web.servlet.config.annotation.InterceptorRegistry;
+import org.springframework.web.servlet.config.annotation.ResourceHandlerRegistry;
 import org.springframework.web.servlet.config.annotation.ViewControllerRegistry;
 import org.springframework.web.servlet.config.annotation.WebMvcConfigurer;
 
@@ -22,5 +28,45 @@ public class MyMvcConfig implements WebMvcConfigurer {
     @Override
     public void addViewControllers(ViewControllerRegistry registry) {
         registry.addViewController("/atguigu").setViewName("success");
+    }
+
+    /**
+     * springboot会自动扫描容器中的WebMvcConfigurer类并进行注册，因此
+     * 直接返回一个WebMvcConfigurer匿名内部类也是可以实现扩展springmvc配置
+     * 的目的
+     * @return
+     */
+    @Bean
+    public WebMvcConfigurer webMvcConfigurer(){
+        return new WebMvcConfigurer() {
+            @Override
+            public void addViewControllers(ViewControllerRegistry registry) {
+                registry.addViewController("/").setViewName("login");
+                registry.addViewController("/index.html").setViewName("login");
+                registry.addViewController("/main.html").setViewName("dashboard");
+            }
+
+            /**
+             * 教程中没有配置对静态资源的放行，但是这里需要
+             * 应该是版本的问题
+             * @param registry
+             */
+            @Override
+            public void addInterceptors(InterceptorRegistry registry) {
+                registry.addInterceptor(new LoginHandlerIntercepter()).addPathPatterns("/**").excludePathPatterns("/index.html","/","/user/login","/webjars/**","/asserts/**");
+            }
+
+        };
+    }
+
+    /**
+     * 配置自定义的localResolver
+     * 注意方法名称必须是localResolver，即跟springboot mvc自动配置中的方法名称一致，
+     * 这样才能达到覆盖掉原来自动配置的Resolver
+     * @return
+     */
+    @Bean
+    public LocaleResolver localeResolver(){
+        return new MyLocalResolver();
     }
 }

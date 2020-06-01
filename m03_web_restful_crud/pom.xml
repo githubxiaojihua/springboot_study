@@ -40,11 +40,18 @@
             </exclusions>
         </dependency>
 
-        <!-- 导入webjars相关依赖-->
+        <!-- 导入jquery webjars相关依赖-->
         <dependency>
             <groupId>org.webjars</groupId>
             <artifactId>jquery</artifactId>
             <version>3.3.1</version>
+        </dependency>
+
+        <!--引入bootstrap-->
+        <dependency>
+            <groupId>org.webjars</groupId>
+            <artifactId>bootstrap</artifactId>
+            <version>4.0.0</version>
         </dependency>
 
         <!-- 导入thymleaf-->

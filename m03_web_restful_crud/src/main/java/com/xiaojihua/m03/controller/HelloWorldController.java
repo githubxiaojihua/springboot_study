@@ -3,11 +3,10 @@ package com.xiaojihua.m03.controller;
 
 import org.springframework.stereotype.Controller;
 import org.springframework.ui.ModelMap;
-import org.springframework.web.bind.annotation.RequestMapping;
-import org.springframework.web.bind.annotation.ResponseBody;
-import org.springframework.web.bind.annotation.RestController;
+import org.springframework.web.bind.annotation.*;
 
 import java.util.Arrays;
+import java.util.Map;
 
 @Controller
 public class HelloWorldController {
@@ -25,4 +24,5 @@ public class HelloWorldController {
         map.put("users", Arrays.asList("zhangsan","lisi","wangwu"));
         return "success";
     }
+
 }
