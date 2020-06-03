@@ -1,6 +1,7 @@
 package com.xiaojihua.m03.controller;
 
 
+import com.xiaojihua.m03.exception.UserNotExistException;
 import org.springframework.stereotype.Controller;
 import org.springframework.ui.ModelMap;
 import org.springframework.web.bind.annotation.*;
@@ -11,9 +12,17 @@ import java.util.Map;
 @Controller
 public class HelloWorldController {
 
+    /**
+     * 加上RequestParam就必须传递user属性
+     * @param user
+     * @return
+     */
     @ResponseBody
     @RequestMapping("/hello")
-    public String hello(){
+    public String hello(@RequestParam("user") String user){
+        if("aaa".equals(user)){
+            throw new UserNotExistException();
+        }
         return "helloworld";
     }
 

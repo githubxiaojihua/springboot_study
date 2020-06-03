@@ -51,10 +51,10 @@ public class MyMvcConfig implements WebMvcConfigurer {
              * 应该是版本的问题
              * @param registry
              */
-            @Override
+            /*@Override
             public void addInterceptors(InterceptorRegistry registry) {
                 registry.addInterceptor(new LoginHandlerIntercepter()).addPathPatterns("/**").excludePathPatterns("/index.html","/","/user/login","/webjars/**","/asserts/**");
-            }
+            }*/
 
         };
     }
