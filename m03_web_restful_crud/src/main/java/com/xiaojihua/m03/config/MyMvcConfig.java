@@ -2,6 +2,9 @@ package com.xiaojihua.m03.config;
 
 import com.xiaojihua.m03.compnent.LoginHandlerIntercepter;
 import com.xiaojihua.m03.compnent.MyLocalResolver;
+import org.springframework.boot.web.server.WebServerFactory;
+import org.springframework.boot.web.server.WebServerFactoryCustomizer;
+import org.springframework.boot.web.servlet.server.ConfigurableServletWebServerFactory;
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
 import org.springframework.web.servlet.LocaleResolver;
@@ -68,5 +71,20 @@ public class MyMvcConfig implements WebMvcConfigurer {
     @Bean
     public LocaleResolver localeResolver(){
         return new MyLocalResolver();
+    }
+
+    /**
+     * 通过编程的方式来配置嵌入式server
+     * 注意所使用的泛型
+     * @return
+     */
+    @Bean
+    public WebServerFactoryCustomizer<ConfigurableServletWebServerFactory> webServerFactoryCustomizer(){
+        return new WebServerFactoryCustomizer<ConfigurableServletWebServerFactory>() {
+            @Override
+            public void customize(ConfigurableServletWebServerFactory factory) {
+                factory.setPort(9000);
+            }
+        };
     }
 }
