@@ -1,5 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="ArtifactsWorkspaceSettings">
+    <artifacts-to-build>
+      <artifact name="m04_springboot_war_jsp:war exploded" />
+    </artifacts-to-build>
+  </component>
   <component name="ChangeListManager">
     <list default="true" id="a8558372-d179-4c71-b568-bcdda8f840c4" name="Default" comment="" />
     <ignored path="$PROJECT_DIR$/out/" />
@@ -8,6 +13,7 @@
     <ignored path="$PROJECT_DIR$/m02_yaml/target/" />
     <ignored path="$PROJECT_DIR$/m03_logging/target/" />
     <ignored path="$PROJECT_DIR$/m03_web_restful_crud/target/" />
+    <ignored path="$PROJECT_DIR$/../springboot_study/m04_springboot_war_jsp/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -30,58 +36,62 @@
     <select />
   </component>
   <component name="FileEditorManager">
-    <leaf>
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file leaf-file-name="web.xml" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/../springboot_study/m04_springboot_war_jsp/src/main/webapp/WEB-INF/web.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="110">
+              <caret line="5" column="10" lean-forward="true" selection-start-line="5" selection-start-column="10" selection-end-line="5" selection-end-column="10" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="ServletInitializer.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/../springboot_study/m04_springboot_war_jsp/src/main/java/com/xiaojihua/m04_springboot/ServletInitializer.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="88">
+              <caret line="5" column="13" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="M04SpringbootWarJspApplication.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/../springboot_study/m04_springboot_war_jsp/src/main/java/com/xiaojihua/m04_springboot/M04SpringbootWarJspApplication.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="110">
+              <caret line="6" column="13" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
+            </state>
+          </provider>
+        </entry>
+      </file>
       <file leaf-file-name="application.properties" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/../springboot_study/m03_web_restful_crud/src/main/resources/application.properties">
+        <entry file="file://$PROJECT_DIR$/../springboot_study/m04_springboot_war_jsp/src/main/resources/application.properties">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+      <file leaf-file-name="pom.xml" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/../springboot_study/m04_springboot_war_jsp/pom.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="418">
-              <caret line="19" selection-start-line="19" selection-end-line="19" />
+            <state relative-caret-position="330">
+              <caret line="38" column="37" lean-forward="true" selection-start-line="38" selection-start-column="37" selection-end-line="38" selection-end-column="37" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="MyMvcConfig.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/../springboot_study/m03_web_restful_crud/src/main/java/com/xiaojihua/m03/config/MyMvcConfig.java">
+      <file leaf-file-name="module-info.class" pinned="false" current-in-tab="false">
+        <entry file="jar://$MAVEN_REPOSITORY$/com/fasterxml/jackson/core/jackson-annotations/2.11.0/jackson-annotations-2.11.0.jar!/module-info.class">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="286">
-              <caret line="80" column="9" selection-start-line="80" selection-start-column="9" selection-end-line="80" selection-end-column="9" />
-              <folding>
-                <element signature="e#1425#2221#0" expanded="true" />
-                <element signature="e#2220#2221#0" expanded="true" />
-                <element signature="e#3031#3032#0" expanded="true" />
-                <element signature="e#3084#3085#0" expanded="true" />
-              </folding>
+            <state relative-caret-position="154">
+              <caret line="8" column="1" lean-forward="true" selection-start-line="8" selection-start-column="1" selection-end-line="8" selection-end-column="1" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="ServletWebServerFactoryCustomizer.java" pinned="false" current-in-tab="false">
-        <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/boot/spring-boot-autoconfigure/2.3.0.RELEASE/spring-boot-autoconfigure-2.3.0.RELEASE-sources.jar!/org/springframework/boot/autoconfigure/web/servlet/ServletWebServerFactoryCustomizer.java">
+      <file leaf-file-name="hello.jsp" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/../springboot_study/m04_springboot_war_jsp/src/main/webapp/hello.jsp">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-178">
-              <caret line="34" column="46" selection-start-line="34" selection-start-column="13" selection-end-line="34" selection-end-column="46" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="TomcatServletWebServerFactoryCustomizer.java" pinned="false" current-in-tab="false">
-        <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/boot/spring-boot-autoconfigure/2.3.0.RELEASE/spring-boot-autoconfigure-2.3.0.RELEASE-sources.jar!/org/springframework/boot/autoconfigure/web/servlet/TomcatServletWebServerFactoryCustomizer.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="308">
-              <caret line="33" column="52" selection-start-line="33" selection-start-column="13" selection-end-line="33" selection-end-column="52" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="WebMvcAutoConfiguration.class" pinned="false" current-in-tab="false">
-        <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/boot/spring-boot-autoconfigure/2.3.0.RELEASE/spring-boot-autoconfigure-2.3.0.RELEASE.jar!/org/springframework/boot/autoconfigure/web/servlet/WebMvcAutoConfiguration.class">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="80">
-              <caret line="119" column="21" lean-forward="true" selection-start-line="119" selection-start-column="21" selection-end-line="119" selection-end-column="21" />
-              <folding>
-                <element signature="e#8129#8130#0" expanded="true" />
-                <element signature="e#8182#8183#0" expanded="true" />
-              </folding>
+            <state relative-caret-position="92">
+              <caret line="13" column="28" selection-start-line="13" selection-start-column="28" selection-end-line="13" selection-end-column="28" />
             </state>
           </provider>
         </entry>
@@ -94,6 +104,7 @@
         <option value="spring-beans.schema" />
         <option value="HTML File" />
         <option value="Class" />
+        <option value="Jsp File" />
       </list>
     </option>
   </component>
@@ -137,14 +148,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/m03_logging/src/main/resources/logback-spring.xml" />
-        <option value="$PROJECT_DIR$/m03_logging/pom.xml" />
-        <option value="$PROJECT_DIR$/m03_logging/src/main/resources/application.properties" />
-        <option value="$PROJECT_DIR$/m03_logging/总结.md" />
-        <option value="$PROJECT_DIR$/m03_web_restful_crud/src/main/java/com/xiaojihua/m03/controller/HelloWorldController.java" />
-        <option value="$PROJECT_DIR$/m03_web_restful_crud/src/main/resources/public/index.html" />
-        <option value="$PROJECT_DIR$/m03_web_restful_crud/src/main/resources/application.properties" />
-        <option value="$PROJECT_DIR$/m03_web_restful_crud/pom.xml" />
         <option value="$PROJECT_DIR$/m03_web_restful_crud/总结.md" />
         <option value="$PROJECT_DIR$/m03_web_restful_crud/src/main/java/com/xiaojihua/m03/controller/HelloWorldController.java" />
         <option value="$PROJECT_DIR$/m03_web_restful_crud/src/main/resources/templates/success.html" />
@@ -182,12 +185,20 @@
         <option value="$PROJECT_DIR$/m03_web_restful_crud/src/main/java/com/xiaojihua/m03/controller/HelloWorldController.java" />
         <option value="$PROJECT_DIR$/m03_web_restful_crud/src/main/java/com/xiaojihua/m03/controller/MyExceptionHandler.java" />
         <option value="$PROJECT_DIR$/m03_web_restful_crud/src/main/resources/templates/error/5xx.html" />
-        <option value="$PROJECT_DIR$/../springboot_study/m03_web_restful_crud/src/main/java/com/xiaojihua/m03/controller/MyExceptionHandler.java" />
-        <option value="$PROJECT_DIR$/../springboot_study/m03_web_restful_crud/src/main/resources/templates/error/5xx.html" />
-        <option value="$PROJECT_DIR$/../springboot_study/m03_web_restful_crud/总结.md" />
-        <option value="$PROJECT_DIR$/../springboot_study/m03_web_restful_crud/src/main/java/com/xiaojihua/m03/compnent/MyErrorAttribute.java" />
-        <option value="$PROJECT_DIR$/../springboot_study/m03_web_restful_crud/src/main/resources/application.properties" />
-        <option value="$PROJECT_DIR$/../springboot_study/m03_web_restful_crud/src/main/java/com/xiaojihua/m03/config/MyMvcConfig.java" />
+        <option value="$PROJECT_DIR$/m03_web_restful_crud/src/main/java/com/xiaojihua/m03/controller/MyExceptionHandler.java" />
+        <option value="$PROJECT_DIR$/m03_web_restful_crud/src/main/resources/templates/error/5xx.html" />
+        <option value="$PROJECT_DIR$/m03_web_restful_crud/总结.md" />
+        <option value="$PROJECT_DIR$/m03_web_restful_crud/src/main/java/com/xiaojihua/m03/compnent/MyErrorAttribute.java" />
+        <option value="$PROJECT_DIR$/m03_web_restful_crud/src/main/resources/application.properties" />
+        <option value="$PROJECT_DIR$/m03_web_restful_crud/src/main/java/com/xiaojihua/m03/config/MyMvcConfig.java" />
+        <option value="$PROJECT_DIR$/m03_web_restful_crud/src/main/java/com/xiaojihua/m03/servlet/MyServlet.java" />
+        <option value="$PROJECT_DIR$/m03_web_restful_crud/src/main/java/com/xiaojihua/m03/filter/MyFilter.java" />
+        <option value="$PROJECT_DIR$/m03_web_restful_crud/src/main/java/com/xiaojihua/m03/listener/MyListener.java" />
+        <option value="$PROJECT_DIR$/m03_web_restful_crud/src/main/java/com/xiaojihua/m03/config/MyServerConfig.java" />
+        <option value="$PROJECT_DIR$/m03_web_restful_crud/总结.md" />
+        <option value="$PROJECT_DIR$/../springboot_study/m04_springboot_war_jsp/src/main/webapp/WEB-INF/hello.jsp" />
+        <option value="$PROJECT_DIR$/../springboot_study/m04_springboot_war_jsp/src/main/webapp/WEB-INF/web.xml" />
+        <option value="$PROJECT_DIR$/../springboot_study/m04_springboot_war_jsp/pom.xml" />
       </list>
     </option>
   </component>
@@ -196,6 +207,13 @@
   <component name="JsGulpfileManager">
     <detection-done>true</detection-done>
     <sorting>DEFINITION_ORDER</sorting>
+  </component>
+  <component name="LogFilters">
+    <option name="FILTER_ERRORS" value="false" />
+    <option name="FILTER_WARNINGS" value="false" />
+    <option name="FILTER_INFO" value="true" />
+    <option name="FILTER_DEBUG" value="true" />
+    <option name="CUSTOM_FILTER" />
   </component>
   <component name="MavenImportPreferences">
     <option name="generalSettings">
@@ -259,6 +277,7 @@
     <panes>
       <pane id="AndroidView" />
       <pane id="Scope" />
+      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -269,94 +288,37 @@
             <path>
               <item name="springboot_study" type="b2602c69:ProjectViewProjectNode" />
               <item name="springboot_study" type="462c0819:PsiDirectoryNode" />
-              <item name="m03_web_restful_crud" type="462c0819:PsiDirectoryNode" />
+              <item name="m04_springboot_war_jsp" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="springboot_study" type="b2602c69:ProjectViewProjectNode" />
               <item name="springboot_study" type="462c0819:PsiDirectoryNode" />
-              <item name="m03_web_restful_crud" type="462c0819:PsiDirectoryNode" />
+              <item name="m04_springboot_war_jsp" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="springboot_study" type="b2602c69:ProjectViewProjectNode" />
               <item name="springboot_study" type="462c0819:PsiDirectoryNode" />
-              <item name="m03_web_restful_crud" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="springboot_study" type="b2602c69:ProjectViewProjectNode" />
-              <item name="springboot_study" type="462c0819:PsiDirectoryNode" />
-              <item name="m03_web_restful_crud" type="462c0819:PsiDirectoryNode" />
+              <item name="m04_springboot_war_jsp" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="springboot_study" type="b2602c69:ProjectViewProjectNode" />
               <item name="springboot_study" type="462c0819:PsiDirectoryNode" />
-              <item name="m03_web_restful_crud" type="462c0819:PsiDirectoryNode" />
+              <item name="m04_springboot_war_jsp" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="m03" type="462c0819:PsiDirectoryNode" />
+              <item name="webapp" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="springboot_study" type="b2602c69:ProjectViewProjectNode" />
               <item name="springboot_study" type="462c0819:PsiDirectoryNode" />
-              <item name="m03_web_restful_crud" type="462c0819:PsiDirectoryNode" />
+              <item name="m04_springboot_war_jsp" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="m03" type="462c0819:PsiDirectoryNode" />
-              <item name="compnent" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="springboot_study" type="b2602c69:ProjectViewProjectNode" />
-              <item name="springboot_study" type="462c0819:PsiDirectoryNode" />
-              <item name="m03_web_restful_crud" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="m03" type="462c0819:PsiDirectoryNode" />
-              <item name="config" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="springboot_study" type="b2602c69:ProjectViewProjectNode" />
-              <item name="springboot_study" type="462c0819:PsiDirectoryNode" />
-              <item name="m03_web_restful_crud" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="m03" type="462c0819:PsiDirectoryNode" />
-              <item name="controller" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="springboot_study" type="b2602c69:ProjectViewProjectNode" />
-              <item name="springboot_study" type="462c0819:PsiDirectoryNode" />
-              <item name="m03_web_restful_crud" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="resources" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="springboot_study" type="b2602c69:ProjectViewProjectNode" />
-              <item name="springboot_study" type="462c0819:PsiDirectoryNode" />
-              <item name="m03_web_restful_crud" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="resources" type="462c0819:PsiDirectoryNode" />
-              <item name="templates" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="springboot_study" type="b2602c69:ProjectViewProjectNode" />
-              <item name="springboot_study" type="462c0819:PsiDirectoryNode" />
-              <item name="m03_web_restful_crud" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="resources" type="462c0819:PsiDirectoryNode" />
-              <item name="templates" type="462c0819:PsiDirectoryNode" />
-              <item name="error" type="462c0819:PsiDirectoryNode" />
+              <item name="webapp" type="462c0819:PsiDirectoryNode" />
+              <item name="WEB-INF" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="springboot_study" type="b2602c69:ProjectViewProjectNode" />
@@ -396,6 +358,14 @@
               <item name="autoconfigure" type="462c0819:PsiDirectoryNode" />
               <item name="web" type="462c0819:PsiDirectoryNode" />
               <item name="servlet" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="springboot_study" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="Maven: org.springframework.boot:spring-boot-autoconfigure:2.3.0.RELEASE" type="70bed36:NamedLibraryElementNode" />
+              <item name="spring-boot-autoconfigure-2.3.0.RELEASE.jar" type="462c0819:PsiDirectoryNode" />
+              <item name="autoconfigure" type="462c0819:PsiDirectoryNode" />
+              <item name="webservices" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="springboot_study" type="b2602c69:ProjectViewProjectNode" />
@@ -462,7 +432,6 @@
           <select />
         </subPane>
       </pane>
-      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -478,22 +447,27 @@
     <property name="last_opened_file_path" value="H:/" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="project.structure.last.edited" value="Facets" />
+    <property name="project.structure.proportion" value="0.15527344" />
+    <property name="project.structure.side.proportion" value="0.2" />
     <property name="settings.editor.selected.configurable" value="File.Encoding" />
   </component>
   <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="I:\springboot_study\m04_springboot_war_jsp\src\main\webapp" />
+      <recent name="I:\springboot_study\m04_springboot_war_jsp\src\main\webapp\WEB-INF" />
+      <recent name="I:\springboot_study\m03_web_restful_crud\src\main\resources\templates" />
+      <recent name="I:\springboot_study\m03_web_restful_crud\src\main\resources\templates\emp" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.xiaojihua.m02.pojo" />
+    </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="I:\springboot_study\m03_web_restful_crud\src\main\resources\templates\error" />
       <recent name="I:\springboot_study\m03_web_restful_crud\src\main\resources\templates\emp" />
       <recent name="I:\springboot_study\m03_web_restful_crud\src\main\resources\templates" />
       <recent name="I:\springboot_study\m03_web_restful_crud\src\main\java\com\xiaojihua\m03" />
       <recent name="I:\springboot_study\m03_web_restful_crud\src\main\resources\resources" />
-    </key>
-    <key name="CopyClassDialog.RECENTS_KEY">
-      <recent name="com.xiaojihua.m02.pojo" />
-    </key>
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="I:\springboot_study\m03_web_restful_crud\src\main\resources\templates" />
-      <recent name="I:\springboot_study\m03_web_restful_crud\src\main\resources\templates\emp" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -508,7 +482,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Spring Boot.M03WebRestfulCrudApplication">
+  <component name="RunManager" selected="Tomcat Server.springbootwar">
     <configuration default="true" type="Application" factoryName="Application">
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
     </configuration>
@@ -590,6 +564,10 @@
       <module name="m03_web_restful_crud" />
       <option name="SPRING_BOOT_MAIN_CLASS" value="com.xiaojihua.m03.M03WebRestfulCrudApplication" />
     </configuration>
+    <configuration name="M04SpringbootWarJspApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="m04_springboot_war_jsp" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.xiaojihua.m04_springboot.M04SpringbootWarJspApplication" />
+    </configuration>
     <configuration default="true" type="TestNG" factoryName="TestNG">
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
@@ -612,11 +590,85 @@
       <properties />
       <listeners />
     </configuration>
+    <configuration name="springbootwar" type="#com.intellij.j2ee.web.tomcat.TomcatRunConfigurationFactory" factoryName="Local" APPLICATION_SERVER_NAME="Tomcat 9.0.35" ALTERNATIVE_JRE_ENABLED="false">
+      <option name="OPEN_IN_BROWSER" value="false" />
+      <option name="UPDATING_POLICY" value="restart-server" />
+      <deployment>
+        <artifact name="m04_springboot_war_jsp:war exploded">
+          <settings>
+            <option name="CONTEXT_PATH" value="/" />
+          </settings>
+        </artifact>
+      </deployment>
+      <server-settings>
+        <option name="BASE_DIRECTORY_NAME" value="Unnamed_springboot_study_2" />
+      </server-settings>
+      <predefined_log_file id="Tomcat" enabled="true" />
+      <predefined_log_file id="Tomcat Catalina" enabled="true" />
+      <predefined_log_file id="Tomcat Manager" enabled="false" />
+      <predefined_log_file id="Tomcat Host Manager" enabled="false" />
+      <predefined_log_file id="Tomcat Localhost Access" enabled="false" />
+      <RunnerSettings RunnerId="Debug">
+        <option name="DEBUG_PORT" value="10771" />
+      </RunnerSettings>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Cover">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Debug">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Run">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <method>
+        <option name="BuildArtifacts" enabled="true">
+          <artifact name="m04_springboot_war_jsp:war exploded" />
+        </option>
+      </method>
+    </configuration>
     <list>
       <item itemvalue="Spring Boot.M01HelloworldApplication" />
       <item itemvalue="Spring Boot.M02YamlApplication" />
       <item itemvalue="Spring Boot.M03LoggingApplication" />
       <item itemvalue="Spring Boot.M03WebRestfulCrudApplication" />
+      <item itemvalue="Spring Boot.M04SpringbootWarJspApplication" />
+      <item itemvalue="Tomcat Server.springbootwar" />
       <item itemvalue="JUnit.M02YamlApplicationTests.contextLoads" />
       <item itemvalue="JUnit.M03LoggingApplicationTests.contextLoads" />
     </list>
@@ -659,7 +711,9 @@
       <workItem from="1591153993296" duration="90000" />
       <workItem from="1591163487251" duration="12426000" />
       <workItem from="1591231201298" duration="37000" />
-      <workItem from="1591249080488" duration="5787000" />
+      <workItem from="1591249080488" duration="7028000" />
+      <workItem from="1591317989122" duration="2714000" />
+      <workItem from="1591327560749" duration="5561000" />
     </task>
     <servers />
   </component>
@@ -696,7 +750,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="93559000" />
+    <option name="totallyTimeSpent" value="103075000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
@@ -704,27 +758,28 @@
     <layout>
       <window_info anchor="right" id="Palette" order="3" />
       <window_info anchor="bottom" id="Event Log" order="7" sideWeight="0.5020107" side_tool="true" weight="0.72767204" />
+      <window_info anchor="bottom" id="Application Servers" weight="0.329429" />
       <window_info anchor="right" id="Maven Projects" order="3" weight="0.3297587" />
-      <window_info anchor="bottom" id="Database Changes" order="7" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Database Changes" order="8" show_stripe_button="false" />
       <window_info id="Capture Tool" order="2" />
       <window_info id="Designer" order="2" />
-      <window_info anchor="bottom" id="Statistic" order="7" />
+      <window_info anchor="bottom" id="Statistic" order="9" />
       <window_info anchor="right" id="Database" order="3" weight="0.3297587" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info id="UI Designer" order="2" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.3967789" />
       <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="bottom" id="Messages" order="7" />
+      <window_info anchor="bottom" id="Messages" order="14" weight="0.329429" />
       <window_info anchor="right" id="Palette&#9;" order="3" />
       <window_info id="Image Layers" order="2" />
-      <window_info anchor="bottom" id="Java Enterprise" order="7" />
+      <window_info anchor="bottom" id="Java Enterprise" order="10" />
       <window_info anchor="right" id="Capture Analysis" order="3" />
-      <window_info anchor="bottom" id="Version Control" order="7" />
-      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49798927" weight="0.5183016" />
-      <window_info anchor="bottom" id="Spring" order="7" />
-      <window_info anchor="bottom" id="Terminal" order="7" weight="0.4137427" />
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.26206434" />
+      <window_info anchor="bottom" id="Version Control" order="11" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49798927" weight="0.704246" />
+      <window_info anchor="bottom" id="Spring" order="12" />
+      <window_info anchor="bottom" id="Terminal" order="13" weight="0.4122807" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.30428955" />
       <window_info anchor="right" id="Bean Validation" order="4" />
       <window_info id="Web" order="2" side_tool="true" />
       <window_info anchor="right" id="Theme Preview" order="3" />
@@ -775,90 +830,6 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/../springboot_study/m03_web_restful_crud/src/main/resources/templates/login.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="198">
-          <caret line="9" column="107" selection-start-line="9" selection-start-column="50" selection-end-line="9" selection-end-column="107" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-web/5.2.6.RELEASE/spring-web-5.2.6.RELEASE.jar!/org/springframework/web/bind/annotation/DeleteMapping.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="218">
-          <caret line="20" column="18" selection-start-line="20" selection-start-column="18" selection-end-line="20" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/boot/spring-boot/2.3.0.RELEASE/spring-boot-2.3.0.RELEASE.jar!/org/springframework/boot/web/servlet/filter/OrderedHiddenHttpMethodFilter.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="132">
-          <caret line="9" column="58" selection-start-line="9" selection-start-column="58" selection-end-line="9" selection-end-column="58" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-web/5.2.6.RELEASE/spring-web-5.2.6.RELEASE.jar!/org/springframework/web/filter/HiddenHttpMethodFilter.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-66">
-          <caret line="22" column="13" selection-start-line="22" selection-start-column="13" selection-end-line="22" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/webjars/jquery/3.3.1/jquery-3.3.1.jar!/META-INF/resources/webjars/jquery/3.3.1/jquery.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="200">
-          <caret line="10204" column="25" selection-start-line="10204" selection-start-column="25" selection-end-line="10204" selection-end-column="25" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-web/5.2.6.RELEASE/spring-web-5.2.6.RELEASE-sources.jar!/org/springframework/web/filter/OncePerRequestFilter.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="416">
-          <caret line="68" column="22" selection-start-line="68" selection-start-column="22" selection-end-line="68" selection-end-column="22" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../springboot_study/m03_web_restful_crud/src/main/resources/templates/emp/list.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2134">
-          <caret line="97" column="39" selection-start-line="97" selection-start-column="26" selection-end-line="97" selection-end-column="39" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../springboot_study/m03_web_restful_crud/src/main/resources/templates/emp/add.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="484">
-          <caret line="67" column="82" selection-start-line="67" selection-start-column="24" selection-end-line="67" selection-end-column="82" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../springboot_study/m03_web_restful_crud/src/main/java/com/xiaojihua/m03/controller/EmpController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="388">
-          <caret line="47" column="17" lean-forward="true" selection-start-line="47" selection-start-column="17" selection-end-line="47" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-web/5.2.6.RELEASE/spring-web-5.2.6.RELEASE-sources.jar!/org/springframework/web/bind/annotation/RequestMapping.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-46">
-          <caret line="76" column="18" selection-start-line="76" selection-start-column="18" selection-end-line="76" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/boot/spring-boot-autoconfigure/2.3.0.RELEASE/spring-boot-autoconfigure-2.3.0.RELEASE.jar!/org/springframework/boot/autoconfigure/web/servlet/error/BasicErrorController.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1568">
-          <caret line="27" column="19" selection-start-line="27" selection-start-column="19" selection-end-line="27" selection-end-column="59" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/boot/spring-boot/2.3.0.RELEASE/spring-boot-2.3.0.RELEASE.jar!/org/springframework/boot/web/server/ErrorPage.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="218">
-          <caret line="15" column="11" selection-start-line="15" selection-start-column="11" selection-end-line="15" selection-end-column="11" />
-        </state>
-      </provider>
-    </entry>
     <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/boot/spring-boot-autoconfigure/2.3.0.RELEASE/spring-boot-autoconfigure-2.3.0.RELEASE.jar!/org/springframework/boot/autoconfigure/web/ErrorProperties.class">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="464">
@@ -940,10 +911,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="352">
           <caret line="53" column="17" selection-start-line="53" selection-start-column="8" selection-end-line="53" selection-end-column="17" />
-          <folding>
-            <element signature="e#582#583#0" expanded="true" />
-            <element signature="e#636#637#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1052,19 +1019,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/../springboot_study/pom.xml">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../springboot_study/m03_web_restful_crud/总结.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor relative-caret-position="525">
-            <caret line="28" lean-forward="true" selection-start-line="28" selection-end-line="28" />
-          </first_editor>
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/../springboot_study/m03_web_restful_crud/src/main/java/com/xiaojihua/m03/controller/MyExceptionHandler.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="564">
@@ -1079,16 +1033,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="66">
           <caret line="9" selection-start-line="9" selection-end-line="28" selection-end-column="1" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/boot/spring-boot-autoconfigure/2.3.0.RELEASE/spring-boot-autoconfigure-2.3.0.RELEASE-sources.jar!/org/springframework/boot/autoconfigure/web/servlet/ServletWebServerFactoryAutoConfiguration.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="108">
-          <caret line="61" column="43" lean-forward="true" selection-start-line="61" selection-start-column="43" selection-end-line="61" selection-end-column="43" />
         </state>
       </provider>
     </entry>
@@ -1096,12 +1040,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="452">
           <caret line="71" column="16" selection-start-line="71" selection-start-column="16" selection-end-line="71" selection-end-column="16" />
-          <folding>
-            <element signature="e#1724#1725#0" expanded="true" />
-            <element signature="e#1759#1760#0" expanded="true" />
-            <element signature="e#1821#1822#0" expanded="true" />
-            <element signature="e#1868#1869#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1109,10 +1047,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1596">
           <caret line="130" column="16" selection-start-line="130" selection-start-column="16" selection-end-line="130" selection-end-column="16" />
-          <folding>
-            <element signature="e#3769#3770#0" expanded="true" />
-            <element signature="e#3792#3793#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1125,18 +1059,14 @@
     </entry>
     <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/boot/spring-boot-autoconfigure/2.3.0.RELEASE/spring-boot-autoconfigure-2.3.0.RELEASE.jar!/org/springframework/boot/autoconfigure/web/servlet/WebMvcAutoConfiguration.class">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="80">
-          <caret line="119" column="21" lean-forward="true" selection-start-line="119" selection-start-column="21" selection-end-line="119" selection-end-column="21" />
-          <folding>
-            <element signature="e#8129#8130#0" expanded="true" />
-            <element signature="e#8182#8183#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="308">
+          <caret line="119" column="21" selection-start-line="119" selection-start-column="21" selection-end-line="119" selection-end-column="21" />
         </state>
       </provider>
     </entry>
     <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/boot/spring-boot-autoconfigure/2.3.0.RELEASE/spring-boot-autoconfigure-2.3.0.RELEASE-sources.jar!/org/springframework/boot/autoconfigure/web/servlet/ServletWebServerFactoryCustomizer.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-178">
+        <state relative-caret-position="352">
           <caret line="34" column="46" selection-start-line="34" selection-start-column="13" selection-end-line="34" selection-end-column="46" />
         </state>
       </provider>
@@ -1148,25 +1078,214 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/../springboot_study/m03_web_restful_crud/src/main/java/com/xiaojihua/m03/servlet/MyServlet.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="264">
+          <caret line="16" column="46" selection-start-line="16" selection-start-column="46" selection-end-line="16" selection-end-column="46" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../springboot_study/m03_web_restful_crud/src/main/java/com/xiaojihua/m03/filter/MyFilter.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="176">
+          <caret line="9" column="59" selection-start-line="9" selection-start-column="59" selection-end-line="9" selection-end-column="59" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../springboot_study/m03_web_restful_crud/src/main/java/com/xiaojihua/m03/listener/MyListener.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="198">
+          <caret line="13" column="51" selection-start-line="13" selection-start-column="51" selection-end-line="13" selection-end-column="51" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#259#260#0" expanded="true" />
+            <element signature="e#323#324#0" expanded="true" />
+            <element signature="e#398#399#0" expanded="true" />
+            <element signature="e#462#463#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/../springboot_study/m03_web_restful_crud/src/main/java/com/xiaojihua/m03/config/MyMvcConfig.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="286">
-          <caret line="80" column="9" selection-start-line="80" selection-start-column="9" selection-end-line="80" selection-end-column="9" />
+        <state relative-caret-position="1606">
+          <caret line="88" column="5" selection-start-line="75" selection-start-column="4" selection-end-line="88" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../springboot_study/m03_web_restful_crud/src/main/java/com/xiaojihua/m03/config/MyServerConfig.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="198">
+          <caret line="19" column="13" selection-start-line="19" selection-start-column="13" selection-end-line="19" selection-end-column="13" />
           <folding>
-            <element signature="e#1425#2221#0" expanded="true" />
-            <element signature="e#2220#2221#0" expanded="true" />
-            <element signature="e#3031#3032#0" expanded="true" />
-            <element signature="e#3084#3085#0" expanded="true" />
+            <element signature="imports" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/boot/spring-boot-autoconfigure/2.3.0.RELEASE/spring-boot-autoconfigure-2.3.0.RELEASE-sources.jar!/org/springframework/boot/autoconfigure/webservices/WebServicesAutoConfiguration.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="418">
+          <caret line="66" column="13" selection-start-line="66" selection-start-column="13" selection-end-line="66" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/boot/spring-boot-autoconfigure/2.3.0.RELEASE/spring-boot-autoconfigure-2.3.0.RELEASE-sources.jar!/org/springframework/boot/autoconfigure/web/servlet/WebMvcAutoConfiguration.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <folding>
+            <element signature="e#0#25830#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/boot/spring-boot-autoconfigure/2.3.0.RELEASE/spring-boot-autoconfigure-2.3.0.RELEASE-sources.jar!/org/springframework/boot/autoconfigure/web/servlet/ServletWebServerFactoryAutoConfiguration.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="748">
+          <caret line="75" column="19" selection-start-line="75" selection-start-column="19" selection-end-line="75" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../springboot_study/m03_web_restful_crud/总结.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="481">
+            <caret line="28" column="28" selection-start-line="28" selection-start-column="28" selection-end-line="28" selection-end-column="28" />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../springboot_study/m04_springboot_war_jsp/src/main/webapp/hello.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="92">
+          <caret line="13" column="28" selection-start-line="13" selection-start-column="28" selection-end-line="13" selection-end-column="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../springboot_study/m04_springboot_war_jsp/src/main/resources/application.properties">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../springboot_study/m04_springboot_war_jsp/src/main/webapp/WEB-INF/web.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="110">
+          <caret line="5" column="10" lean-forward="true" selection-start-line="5" selection-start-column="10" selection-end-line="5" selection-end-column="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../springboot_study/m04_springboot_war_jsp/src/main/java/com/xiaojihua/m04_springboot/M04SpringbootWarJspApplication.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="110">
+          <caret line="6" column="13" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../springboot_study/m04_springboot_war_jsp/src/main/java/com/xiaojihua/m04_springboot/ServletInitializer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="88">
+          <caret line="5" column="13" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/com/fasterxml/jackson/core/jackson-annotations/2.11.0/jackson-annotations-2.11.0.jar!/module-info.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="154">
+          <caret line="8" column="1" lean-forward="true" selection-start-line="8" selection-start-column="1" selection-end-line="8" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../springboot_study/m04_springboot_war_jsp/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="330">
+          <caret line="38" column="37" lean-forward="true" selection-start-line="38" selection-start-column="37" selection-end-line="38" selection-end-column="37" />
         </state>
       </provider>
     </entry>
   </component>
   <component name="masterDetails">
     <states>
+      <state key="ArtifactsStructureConfigurable.UI">
+        <settings>
+          <artifact-editor />
+          <last-edited>m04_springboot_war_jsp:war</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+                <option value="0.5" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="FacetStructureConfigurable.UI">
+        <settings>
+          <last-edited>Web (m04_springboot_war_jsp)|Web</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="GlobalLibrariesConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="JdkListConfigurable.UI">
+        <settings>
+          <last-edited>1.8</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ModuleStructureConfigurable.UI">
+        <settings>
+          <last-edited>Web|m04_springboot_war_jsp</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
       <state key="ProjectJDKs.UI">
         <settings>
           <last-edited>1.8</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ProjectLibrariesConfigurable.UI">
+        <settings>
+          <last-edited>Maven: ch.qos.logback:logback-classic:1.2.3</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>

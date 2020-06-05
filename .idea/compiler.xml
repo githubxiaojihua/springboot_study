@@ -11,6 +11,7 @@
         <module name="m02_yaml" />
         <module name="m03_logging" />
         <module name="m03_web_restful_crud" />
+        <module name="m04_springboot_war_jsp" />
       </profile>
     </annotationProcessing>
   </component>
