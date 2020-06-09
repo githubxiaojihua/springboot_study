@@ -3,5 +3,26 @@ spring:
     url: jdbc:mysql://10.0.20.103:3306/mysql
     username: root
     password: 123456
-    driver-class-name: com.mysql.jdbc.Driver
-spring.datasource.hikari
+    driver-class-name: com.mysql.cj.jdbc.Driver
+    type: com.alibaba.druid.pool.DruidDataSource
+
+    #以下这些配置并非属于DataSourceProperties.java中的因此在IDE中回显是黄色
+    #这些配置是在自定义Druid数据源的时候使用的
+    #数据源其他配置
+    druid:
+      initialSize: 5
+      druid.minIdle: 5
+      maxActive: 20
+      maxWait: 60000
+      timeBetweenEvictionRunsMillis: 60000
+      minEvictableIdleTimeMillis: 300000
+      validationQuery: SELECT 1 FROM DUAL
+      testWhileIdle: true
+      testOnBorrow: false
+      testOnReturn: false
+      poolPreparedStatements: true
+      #配置监控统计拦截的filters，去掉后监控界面sql无法统计，'wall'用于防火墙
+      filters: stat,wall,log4j
+      maxPoolPreparedStatementPerConnectionSize: 20
+      useGlobalDataSourceStat: true
+      connectionProperties: druid.stat.mergeSql=true;druid.stat.slowSqlMillis=500
