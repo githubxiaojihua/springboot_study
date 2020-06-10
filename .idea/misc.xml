@@ -13,7 +13,8 @@
         <option value="$PROJECT_DIR$/m03_logging/pom.xml" />
         <option value="$PROJECT_DIR$/m03_web_restful_crud/pom.xml" />
         <option value="$PROJECT_DIR$/m04_springboot_war_jsp/pom.xml" />
-        <option value="$PROJECT_DIR$/../springboot_study/springboot_jdbc/pom.xml" />
+        <option value="$PROJECT_DIR$/springboot_jdbc/pom.xml" />
+        <option value="$PROJECT_DIR$/../springboot_study/m06_springboot_mybatis/pom.xml" />
       </list>
     </option>
   </component>

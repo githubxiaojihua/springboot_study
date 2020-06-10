@@ -12,6 +12,7 @@
         <module name="m03_logging" />
         <module name="m03_web_restful_crud" />
         <module name="m04_springboot_war_jsp" />
+        <module name="m06_springboot_mybatis" />
         <module name="springboot_jdbc" />
       </profile>
     </annotationProcessing>
