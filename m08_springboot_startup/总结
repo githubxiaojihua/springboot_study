@@ -1,0 +1,5 @@
+使用ApplicationContextInitializer、SpringApplicationRunListener、ApplicationRunner、CommandLineRunner
+来干预spring boot 应用启动。
+每个组件的使用时机可参考笔记。
+
+注意：要使这四个组件起作用必须进行相应的配制，配制方式参考笔记

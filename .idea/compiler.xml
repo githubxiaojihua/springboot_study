@@ -14,6 +14,7 @@
         <module name="m04_springboot_war_jsp" />
         <module name="m06_springboot_mybatis" />
         <module name="m07_springboot_jpa" />
+        <module name="m08_springboot_startup" />
         <module name="springboot_jdbc" />
       </profile>
     </annotationProcessing>
