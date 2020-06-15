@@ -1,0 +1,12 @@
+#配置数据源，使用内置连接池
+spring:
+  datasource:
+    url: jdbc:mysql://10.0.20.106:3306/jpa
+    username: root
+    password: 123456
+    driver-class-name: com.mysql.jdbc.Driver
+#配置jpa相关参数
+  jpa:
+    hibernate:
+      ddl-auto: update
+    show-sql: true
