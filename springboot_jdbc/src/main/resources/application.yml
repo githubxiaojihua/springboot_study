@@ -1,9 +1,12 @@
 spring:
   datasource:
-    url: jdbc:mysql://10.0.20.103:3306/mysql
+    url: jdbc:mysql://10.0.20.106:3306/mysql
     username: root
     password: 123456
     driver-class-name: com.mysql.cj.jdbc.Driver
+#    schema:
+#      - classpath:department.sql
+#    initialization-mode: always
     type: com.alibaba.druid.pool.DruidDataSource
 
     #以下这些配置并非属于DataSourceProperties.java中的因此在IDE中回显是黄色
