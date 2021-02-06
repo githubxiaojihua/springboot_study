@@ -7,15 +7,15 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
-        <module name="m01_helloworld" />
-        <module name="m02_yaml" />
-        <module name="m03_logging" />
-        <module name="m03_web_restful_crud" />
-        <module name="m04_springboot_war_jsp" />
         <module name="m06_springboot_mybatis" />
+        <module name="m01_helloworld" />
         <module name="m07_springboot_jpa" />
-        <module name="m08_springboot_startup" />
+        <module name="m03_logging" />
+        <module name="m02_yaml" />
+        <module name="m04_springboot_war_jsp" />
         <module name="springboot_jdbc" />
+        <module name="m08_springboot_startup" />
+        <module name="m03_web_restful_crud" />
       </profile>
     </annotationProcessing>
   </component>
